@@ -8,11 +8,11 @@ This is an independent community plugin. It is **not** an official DeepSeek or S
 
 ## Screenshots
 
-![Games in the sidebar, above Settings](docs/screenshot-footer.png)
-
 ![Spawnd game cabinet](docs/screenshot-cabinet.jpg)
 
 ![Playing a game](docs/screenshot-play.jpg)
+
+![Games in the sidebar, player minimized](docs/screenshot-footer.png)
 
 ## Install
 
