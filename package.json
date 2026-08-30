@@ -1,0 +1,50 @@
+{
+  "name": "dsh-plugin-spawnd",
+  "version": "0.1.0",
+  "description": "Spawnd.gg games cabinet for DeepSeek Harness: sidebar Games button, cover grid with hover clips, and a minimizable embed player.",
+  "private": false,
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "data/spawnd_game_list.json",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "spawnd",
+    "games",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    },
+    "market": {
+      "displayName": "Spawnd Games",
+      "categories": ["entertainment", "ui"]
+    }
+  }
+}

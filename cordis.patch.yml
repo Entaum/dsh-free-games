@@ -1,0 +1,6 @@
+# dsh-plugin-spawnd — bundle patch.
+# Host serves GET /spawnd/games; Client registers the sidebar Games action
+# and the arcade overlay. Row id and package name stay in sync.
+- insert:
+    - id: dsh-plugin-spawnd
+      name: dsh-plugin-spawnd
