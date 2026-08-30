@@ -1,6 +1,7 @@
-# dsh-plugin-spawnd — bundle patch.
-# Host serves GET /spawnd/games; Client registers the sidebar Games action
-# and the arcade overlay. Row id and package name stay in sync.
+# dsh-free-games — bundle patch.
+# Host serves GET /free-games/catalog from the bundled Spawnd.gg list only.
+# Client registers the sidebar Games action and the arcade overlay.
+# Row id and package name stay in sync.
 - insert:
-    - id: dsh-plugin-spawnd
-      name: dsh-plugin-spawnd
+    - id: dsh-free-games
+      name: dsh-free-games

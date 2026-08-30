@@ -1,7 +1,7 @@
 {
-  "name": "dsh-plugin-spawnd",
+  "name": "dsh-free-games",
   "version": "0.1.0",
-  "description": "Spawnd.gg games cabinet for DeepSeek Harness: sidebar Games button, cover grid with hover clips, and a minimizable embed player.",
+  "description": "Free games cabinet for DeepSeek Harness. Games come from Spawnd.gg, a free premium games website.",
   "private": false,
   "type": "module",
   "main": "./lib/index.js",
@@ -25,6 +25,7 @@
     "deepseek-harness",
     "spawnd",
     "games",
+    "free-games",
     "sidebar"
   ],
   "license": "MIT",
@@ -43,7 +44,7 @@
       ]
     },
     "market": {
-      "displayName": "Spawnd Games",
+      "displayName": "Free Games",
       "categories": ["entertainment", "ui"]
     }
   }

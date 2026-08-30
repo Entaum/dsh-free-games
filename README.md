@@ -1,6 +1,8 @@
-# dsh-plugin-spawnd
+# dsh-free-games
 
-A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web plugin that adds a **Games** button above Settings. It opens a Spawnd.gg cabinet: published demos from the bundled catalog, cover art with hover clips, search/sort, and a minimizable 16:9 embed player.
+A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web plugin that adds a **Games** button above Settings.
+
+All games come from **[Spawnd.gg](https://www.spawnd.gg/)**, a free premium games website. This plugin does not load catalogs, covers, clips, or embeds from any other source.
 
 This is an independent community plugin. It is **not** an official DeepSeek or Spawnd product.
 
@@ -9,25 +11,25 @@ This is an independent community plugin. It is **not** an official DeepSeek or S
 From a public GitHub repository (replace `YOUR_OWNER` after you push):
 
 ```sh
-dsh plugin --profile web add github:YOUR_OWNER/dsh-plugin-spawnd
+dsh plugin --profile web add github:YOUR_OWNER/dsh-free-games
 ```
 
 Pin a commit for production:
 
 ```sh
-dsh plugin --profile web add github:YOUR_OWNER/dsh-plugin-spawnd#<40-character-commit>
+dsh plugin --profile web add github:YOUR_OWNER/dsh-free-games#<40-character-commit>
 ```
 
 From this checkout (development link — keep the directory in place):
 
 ```sh
-dsh plugin --profile web add ./dsh-plugin-spawnd
+dsh plugin --profile web add ./dsh-free-games
 ```
 
 Restart `dsh web`, then refresh the GUI. Uninstall:
 
 ```sh
-dsh plugin --profile web remove dsh-plugin-spawnd
+dsh plugin --profile web remove dsh-free-games
 ```
 
 ## What it does
@@ -36,19 +38,22 @@ dsh plugin --profile web remove dsh-plugin-spawnd
 - Cabinet grid of **published** games from `data/spawnd_game_list.json` only.
 - Live Spawnd data fills **covers and hover clips** only; it does not add extra games.
 - Search by name. Sort: **Newest** (default, `published_at`), **Name**, **Recently played**.
-- Recently played is stored in the browser (`localStorage` key `dsh-plugin-spawnd:recent`).
+- Recently played is stored in the browser (`localStorage` key `dsh-free-games:recent`).
 - Click a cover to open the 16:9 embed. Minimize keeps the iframe mounted. On narrow screens, minimize hides the player; Games restores it.
 - Back / Next around a clickable Spawnd logo. Next picks a random other published game.
 - Outbound Spawnd links use `utm_source=deepseekplugin` and `rel="noopener noreferrer"`.
 
-## Network
+## Spawnd.gg only
 
-The Host half fetches only:
+The plugin refuses any non-Spawnd URL:
 
-- `https://www.spawnd.gg/en/__data.json`
-- `https://www.spawnd.gg/en`
+- Page and embed URLs must be `https://www.spawnd.gg/` or `https://spawnd.gg/`
+- Cover and clip URLs must be `https://assets.spawnd.gg/`
+- Host fetches only `https://www.spawnd.gg/en/__data.json` and `https://www.spawnd.gg/en` (no redirects)
+- Games without a valid Spawnd embed are dropped
+- The Client will not iframe or media-load any other host
 
-The Client loads covers/clips from `https://assets.spawnd.gg/` and embeds `https://www.spawnd.gg/-/games/embed/{id}`. Game iframes run third-party Spawnd code.
+Game iframes still run third-party Spawnd code.
 
 ## Compatibility
 
@@ -65,4 +70,4 @@ Do not publish under the reserved `@deepseek-ai` npm scope. Listing is not a sec
 
 ## License
 
-MIT. Game names, covers, clips, and embeds belong to their respective authors and [Spawnd](https://www.spawnd.gg/).
+MIT. Game names, covers, clips, and embeds belong to their respective authors and [Spawnd.gg](https://www.spawnd.gg/).
