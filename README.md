@@ -10,9 +10,9 @@ This is an independent community plugin. It is **not** an official DeepSeek or S
 
 ![Games in the sidebar, above Settings](docs/screenshot-footer.png)
 
-![Spawnd game cabinet](docs/screenshot-cabinet.png)
+![Spawnd game cabinet](docs/screenshot-cabinet.jpg)
 
-![Playing a game](docs/screenshot-play.png)
+![Playing a game](docs/screenshot-play.jpg)
 
 ## Install
 
