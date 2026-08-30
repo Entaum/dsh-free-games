@@ -6,7 +6,13 @@ All games come from **[Spawnd.gg](https://www.spawnd.gg/)**, a free premium game
 
 This is an independent community plugin. It is **not** an official DeepSeek or Spawnd product.
 
-![Games cabinet above Settings](docs/cabinet.svg)
+## Screenshots
+
+![Games in the sidebar, above Settings](docs/screenshot-footer.png)
+
+![Spawnd game cabinet](docs/screenshot-cabinet.png)
+
+![Playing a game](docs/screenshot-play.png)
 
 ## Install
 
