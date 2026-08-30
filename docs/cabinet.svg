@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560" role="img" aria-label="Free Games cabinet in the DeepSeek Harness sidebar">
+  <rect width="920" height="560" rx="18" fill="#1b140f"/>
+  <rect x="16" y="16" width="248" height="528" rx="14" fill="#241910" stroke="#3a2a1f"/>
+  <text x="36" y="52" fill="#f6e7d4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700">DeepSeek Harness</text>
+  <rect x="32" y="72" width="216" height="36" rx="10" fill="#2f221a"/>
+  <text x="48" y="95" fill="#c9a888" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">New Session</text>
+  <rect x="32" y="420" width="216" height="42" rx="12" fill="#f47e2f"/>
+  <text x="70" y="447" fill="#1a0f08" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">Games</text>
+  <rect x="32" y="474" width="216" height="42" rx="12" fill="#2a211b"/>
+  <text x="70" y="501" fill="#e8d2b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15">Settings</text>
+  <rect x="280" y="28" width="360" height="504" rx="18" fill="#16110d" stroke="#3a2a1f"/>
+  <text x="304" y="64" fill="#f6e7d4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700">spawnd</text>
+  <rect x="304" y="84" width="312" height="34" rx="10" fill="#1a120d" stroke="#4a3122"/>
+  <text x="316" y="106" fill="#c9a888" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">Search games</text>
+  <rect x="304" y="132" width="148" height="168" rx="10" fill="#5a3318"/>
+  <text x="318" y="278" fill="#fff6ea" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700">Townscaper</text>
+  <rect x="468" y="132" width="148" height="168" rx="10" fill="#3d2618"/>
+  <text x="482" y="278" fill="#fff6ea" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700">SUPERHOT</text>
+  <rect x="304" y="316" width="148" height="168" rx="10" fill="#4a2a14"/>
+  <text x="318" y="462" fill="#fff6ea" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700">Vampire Survivors</text>
+  <rect x="468" y="316" width="148" height="168" rx="10" fill="#2d1c12"/>
+  <text x="482" y="462" fill="#fff6ea" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700">CrossCode</text>
+  <rect x="656" y="120" width="240" height="135" rx="14" fill="#120c09" stroke="#4a3122"/>
+  <rect x="672" y="136" width="208" height="117" rx="8" fill="#000"/>
+  <text x="690" y="202" fill="#ffb266" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">16:9 embed</text>
+</svg>

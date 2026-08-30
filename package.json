@@ -19,6 +19,9 @@
     "README.md",
     "LICENSE"
   ],
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -28,7 +31,16 @@
     "free-games",
     "sidebar"
   ],
+  "author": "Entaum",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Entaum/dsh-free-games.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Entaum/dsh-free-games/issues"
+  },
+  "homepage": "https://github.com/Entaum/dsh-free-games#readme",
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1"
   },
@@ -41,7 +53,8 @@
       "inject": [
         "@deepseek-ai/dsh-client-runtime",
         "@deepseek-ai/dsh-client-ui-sidebar"
-      ]
+      ],
+      "immediately": true
     },
     "market": {
       "displayName": "Free Games",
