@@ -20,7 +20,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs",
+    "preview": "npm pack --dry-run --cache /tmp/npm-cache-dsh"
   },
   "keywords": [
     "deepseek-harness",
