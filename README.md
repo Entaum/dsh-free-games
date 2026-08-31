@@ -70,7 +70,7 @@ Game iframes still run third-party Spawnd code.
 
 ## Compatibility
 
-Tested against DeepSeek Harness Web (`dsh web`) around `0.1.0-rc` / `0.1.1-rc.2` with `@deepseek-ai/cordis` `^4.0.1`. Requires the web profile (Host `webServer` + Client slots).
+Tested with DeepSeek Harness Web (`dsh web`) at `0.1.0-rc` / `0.1.1-rc.2` and `@deepseek-ai/cordis` `^4.0.1`. Requires the web profile (Host `webServer` + Client slots).
 
 Check the bundle contract locally:
 
