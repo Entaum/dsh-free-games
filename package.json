@@ -23,13 +23,16 @@
     "check": "node scripts/check.mjs"
   },
   "keywords": [
+    "deepseek-harness",
+    "ds-free-games",
     "dsh",
     "dsh-plugin",
-    "deepseek-harness",
-    "spawnd",
-    "games",
+    "embed",
+    "entertainment",
     "free-games",
-    "sidebar"
+    "games",
+    "sidebar",
+    "spawnd"
   ],
   "author": "Entaum",
   "license": "MIT",
