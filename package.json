@@ -1,7 +1,7 @@
 {
   "name": "dsh-free-games",
   "version": "0.1.0",
-  "description": "Free games cabinet for DeepSeek Harness. Games come from Spawnd.gg, a free premium games website.",
+  "description": "Free Spawnd.gg games cabinet for DeepSeek Harness Web, with search, hover previews, embedded play, and a minimized player.",
   "private": false,
   "type": "module",
   "main": "./lib/index.js",
@@ -58,7 +58,10 @@
     },
     "market": {
       "displayName": "Free Games",
-      "categories": ["entertainment", "ui"]
+      "categories": [
+        "entertainment",
+        "ui"
+      ]
     }
   }
 }
